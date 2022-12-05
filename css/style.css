@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: cornsilk;
+  height: 100vh;
+  width: 100vw;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+
+table{
+  border: 2px solid blue;
+  border-collapse: collapse;
+  border-spacing: 0;
+  transition: all ease-in-out .3s;
+}
+
+
+table {
+  margin: auto;
+}
+
+tr{
+  background-color: white;
+}
+
+.evenline{
+  background-color: #efeeec;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+.rightClass {
+  background-color: rgb(244, 20, 20);
+}
+
+.levelBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.levelBtn button {
+  border: solid #4CAF50 1px;
+  border-radius: 25px;
+  height: 45px;
+  width: 100px;
+  margin-right: 15px;
+  cursor: pointer;
+  transition: all ease-in-out .3s;
+  
+}
+
+button:hover {
+  background-color: #4CAF50;
+  /* Green */
+  color: white;
+  transform: scale(1.2);
+}
+
+td:hover {
+  background-color: rgb(251, 113, 113);
+  cursor: pointer;
+  transform: scale(1.5);
+  /* Green */
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: red;
+  font-weight: bold;
+
+}
+
+
+.restart {
+  display: none;
+  border-radius: 50%;
+  padding: 10px;
+  margin: auto;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+
+.restart:hover {
+  background-color: rgb(184, 239, 46);
+  /* Green */
+  color: white;
+}
+
+
+span {
+  margin-left: 380px;
+}
+
+.timer {
+  font-size: large;
+  font-weight: bold;
+  color: red;
+}

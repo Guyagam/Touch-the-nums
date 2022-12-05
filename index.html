@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Document</title>
+
+</head>
+
+<body onload="init()">
+  <div class="container">
+    <h1>Can you find the next number?!?</h1>
+    <!-- <span class="timer">
+      <span id="counter"></span>
+    </span> -->
+    <div class="levelBtn">
+      <button onclick=" levelCheck(this)" value="9">Very Easy</button>
+      <button onclick=" levelCheck(this)" value="16">Easy</button>
+      <button onclick=" levelCheck(this)" value="36">Medium</button>
+      <button onclick=" levelCheck(this)" value="81">Hard</button>
+      <!-- <button onclick=" levelCheck(this)" value="225">Genius</button> -->
+    </div>
+    <table>
+      <tbody class=" tableBd">
+      </tbody>
+    </table>
+    <button class="restart" onclick="restart()">reStart</button>
+  </div>
+  <script src="js/main.js"></script>
+  <script src="js/function.js"></script>
+</body>
+
+</html>
